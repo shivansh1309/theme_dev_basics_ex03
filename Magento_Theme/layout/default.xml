@@ -13,5 +13,13 @@
                 </arguments>
             </block>
         </referenceBlock>
+        <referenceBlock name = "footer_links">
+            <block class = "Magento\Framework\View\Element\Html\Link" name = "good_evening">
+                <arguments>
+                    <argument name = "label" xsi:type = "string">Good Evening</argument>
+                    <argument name = "path" xsi:type = "string">good-evening</argument>
+                </arguments>
+            </block>
+        </referenceBlock>
     </body>
 </page>
